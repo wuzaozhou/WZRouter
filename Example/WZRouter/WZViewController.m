@@ -7,6 +7,7 @@
 //
 
 #import "WZViewController.h"
+#import <WZRouter/HZRouterHeader.h>
 
 @interface WZViewController ()
 
@@ -14,16 +15,19 @@
 
 @implementation WZViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)onClick:(id)sender {
+    WZRouterRequest *request = [[WZRouterRequest alloc] initWithPath:@"OneViewController" parameters:nil];
+    [[WZRouter sharedRouter] handleRequest:request completed:^(id  _Nullable result, NSError * _Nullable error) {
+        
+    }];
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)present:(UIButton *)sender {
+    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithCapacity:1];
+    [dict setObject:@"1" forKey:@"id"];
+    WZRouterRequest *request = [[WZRouterRequest alloc] initWithPath:@"TwoViewController" parameters:nil];
+    [[WZRouter sharedRouter] handleRequest:request completed:^(id  _Nullable result, NSError * _Nullable error) {
+        
+    }];
 }
 
 @end

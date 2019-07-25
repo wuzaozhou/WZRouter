@@ -22,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		8384F460A6273087D2A10EBE /* Pods_WZRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1173D92CCB1A4FF6F422A45 /* Pods_WZRouter_Example.framework */; };
+		8713048422E986E300B42A80 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8713048022E986E300B42A80 /* OneViewController.m */; };
+		8713048522E986E300B42A80 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8713048322E986E300B42A80 /* TwoViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AB621FFA15CAF2DCBA1DA1B7 /* Pods_WZRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8FC6C93EAB435FC36A0BBA /* Pods_WZRouter_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3CEB2681EE013A3D33415349 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3CEB2681EE013A3D33415349 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WZRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,10 +63,14 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		727D8F792A8F13D1A8A408DF /* Pods-WZRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WZRouter_Tests/Pods-WZRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		864AB378246A0F21C10C22D0 /* Pods-WZRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-WZRouter_Tests/Pods-WZRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8713048022E986E300B42A80 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		8713048122E986E300B42A80 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		8713048222E986E300B42A80 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		8713048322E986E300B42A80 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96169C0B5BF66FD397B88C59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		96169C0B5BF66FD397B88C59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9D8FC6C93EAB435FC36A0BBA /* Pods_WZRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D84F97E0C9EC4AD72CF4339D /* WZRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WZRouter.podspec; path = ../WZRouter.podspec; sourceTree = "<group>"; };
+		D84F97E0C9EC4AD72CF4339D /* WZRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WZRouter.podspec; path = ../WZRouter.podspec; sourceTree = "<group>"; };
 		E1173D92CCB1A4FF6F422A45 /* Pods_WZRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9F04768F8CD7FED417D72B /* Pods-WZRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-WZRouter_Example/Pods-WZRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +109,6 @@
 				727D8F792A8F13D1A8A408DF /* Pods-WZRouter_Tests.debug.xcconfig */,
 				864AB378246A0F21C10C22D0 /* Pods-WZRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +149,10 @@
 		6003F593195388D20070C39A /* Example for WZRouter */ = {
 			isa = PBXGroup;
 			children = (
+				8713048222E986E300B42A80 /* OneViewController.h */,
+				8713048022E986E300B42A80 /* OneViewController.m */,
+				8713048122E986E300B42A80 /* TwoViewController.h */,
+				8713048322E986E300B42A80 /* TwoViewController.m */,
 				6003F59C195388D20070C39A /* WZAppDelegate.h */,
 				6003F59D195388D20070C39A /* WZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -249,6 +258,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wuzaozhou;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 52293RKLWK;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +271,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -386,6 +399,8 @@
 				6003F59E195388D20070C39A /* WZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8713048522E986E300B42A80 /* TwoViewController.m in Sources */,
+				8713048422E986E300B42A80 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,13 +528,16 @@
 			baseConfigurationReference = EB9F04768F8CD7FED417D72B /* Pods-WZRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52293RKLWK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WZRouter/WZRouter-Prefix.pch";
 				INFOPLIST_FILE = "WZRouter/WZRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -529,13 +547,16 @@
 			baseConfigurationReference = 630CBEA92A7269A17F0C9764 /* Pods-WZRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52293RKLWK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WZRouter/WZRouter-Prefix.pch";
 				INFOPLIST_FILE = "WZRouter/WZRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
